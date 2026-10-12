@@ -165,7 +165,7 @@ python -m unittest -v      # or: pip install -e ".[dev]" && pytest
 
 ## Limitations
 
-This is a teaching-grade model: a single discount rate, a simple percent-of-revenue driver set, and no explicit treatment of leases, stock-based compensation, minority interests or non-operating assets beyond what you fold into `net_debt`. The example company and its numbers are fictional. Nothing here is investment advice.
+This model uses a single discount rate, a simple percent-of-revenue driver set, and no explicit treatment of leases, stock-based compensation, minority interests or non-operating assets beyond what you fold into `net_debt`. The example company and its numbers are fictional. Nothing here is investment advice.
 
 ## License
 
