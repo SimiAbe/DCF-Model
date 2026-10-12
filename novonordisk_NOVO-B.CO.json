@@ -1,0 +1,33 @@
+{
+  "_comment": "Illustrative inputs for a fictional company. Monetary values in millions; rates are decimals.",
+  "company": "Novo Nordisk",
+  "base_year": 2025,
+  "currency": "DKK",
+  "units": "m",
+
+  "base_revenue": 309064,
+  "revenue_growth": [-0.03, 0.02, 0.05, 0.05, 0.04],
+  "ebit_margin": [0.41, 0.40, 0.40, 0.40, 0.40],
+  "tax_rate": 0.22,
+  "da_pct_revenue": [0.055, 0.06, 0.065, 0.07, 0.07],
+  "capex_pct_revenue": [0.24, 0.18, 0.13, 0.10, 0.08],
+  "nwc_pct_revenue": -0.125,
+
+  "wacc_inputs": {
+    "risk_free_rate": 0.032,
+    "beta": 0.8,
+    "equity_risk_premium": 0.055,
+    "pre_tax_cost_of_debt": 0.041,
+    "tax_rate": 0.22,
+    "equity_value": 1133000,
+    "debt_value": 102787
+  },
+
+  "terminal_method": "perpetuity",
+  "terminal_growth": 0.02,
+  "mid_year": true,
+
+  "net_debt": 87132,
+  "shares_outstanding": 4414,
+  "current_price": 256.70
+}
