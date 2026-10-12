@@ -1,6 +1,6 @@
 # DCF Model
 
-![tests](https://github.com/<your-username>/dcf-model/actions/workflows/tests.yml/badge.svg)
+![tests](https://github.com/SimiAbe/dcf-model/actions/workflows/tests.yml/badge.svg)
 
 A small, transparent **discounted cash flow (DCF)** valuation model in pure Python — no dependencies. Describe a company in a JSON or TOML file, run one command, and get a year-by-year free cash flow forecast, enterprise and equity value, value per share, and a WACC × terminal-growth sensitivity table.
 
@@ -18,7 +18,7 @@ A small, transparent **discounted cash flow (DCF)** valuation model in pure Pyth
 ## Quick start
 
 ```bash
-git clone https://github.com/<your-username>/dcf-model.git
+git clone https://github.com/SimiAbe/dcf-model.git
 cd dcf-model
 python -m dcf examples/example_company.json
 ```
