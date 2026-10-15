@@ -1,0 +1,24 @@
+# Same company valued with an exit multiple instead of a perpetuity.
+# TOML configs need Python 3.11+.
+company = "Example Co."
+base_year = 2025
+currency = "USD"
+units = "m"
+
+base_revenue = 1000.0
+revenue_growth = [0.12, 0.10, 0.08, 0.06, 0.04]
+ebit_margin = [0.18, 0.185, 0.19, 0.195, 0.20]
+tax_rate = 0.25
+da_pct_revenue = 0.04
+capex_pct_revenue = 0.05
+nwc_pct_revenue = 0.10
+
+discount_rate = 0.09
+
+terminal_method = "exit_multiple"
+exit_multiple = 10.0
+mid_year = true
+
+net_debt = 800.0
+shares_outstanding = 250.0
+current_price = 6.5

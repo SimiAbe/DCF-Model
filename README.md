@@ -4,6 +4,9 @@
 
 A small, transparent **discounted cash flow (DCF)** valuation model in pure Python — no dependencies. Describe a company in a JSON or TOML file, run one command, and get a year-by-year free cash flow forecast, enterprise and equity value, value per share, and a WACC × terminal-growth sensitivity table.
 
+> ## 📊 Featured: [Novo Nordisk valuation (PDF) →](novonordisk_NOVO-B.CO_Valuation.pdf)
+> Base-case fair value of **DKK 543 per share** vs a market price of DKK 257 (Oct 2026), with scenarios from DKK 305 (bear) to 633 (bull) and a reverse DCF showing the price implies a ~21% operating margin. Inputs: [`examples/novonordisk_NOVO-B.CO.json`](examples/novonordisk_NOVO-B.CO.json)
+
 ## Features
 
 - Unlevered free cash flow build from revenue growth, EBIT margin, tax, D&A, capex and working capital drivers (single value or one per year)
@@ -165,7 +168,7 @@ python -m unittest -v      # or: pip install -e ".[dev]" && pytest
 
 ## Limitations
 
-This model uses a single discount rate, a simple percent-of-revenue driver set, and no explicit treatment of leases, stock-based compensation, minority interests or non-operating assets beyond what you fold into `net_debt`. The example company and its numbers are fictional. Nothing here is investment advice.
+This is a teaching-grade model: a single discount rate, a simple percent-of-revenue driver set, and no explicit treatment of leases, stock-based compensation, minority interests or non-operating assets beyond what you fold into `net_debt`. The example company and its numbers are fictional. Nothing here is investment advice.
 
 ## License
 
